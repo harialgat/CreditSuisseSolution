@@ -20,7 +20,7 @@ public class ToDB {
 	// this method will calculate the time between two similar event ids and status
 	// started and finished, also will insert into db
 	public static void toDB(ArrayList<Event> l) throws SQLException {
-		try {
+		try {   //you will need to change this path
 			String createEvents = readToString("C:\\Users\\Sanket\\Desktop\\CreditSuisseTest\\src\\sql\\Events.sql");
 			System.out.println("Attempting to create contacts DB ... ");
 
