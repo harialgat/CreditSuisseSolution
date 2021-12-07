@@ -1,0 +1,1 @@
+create table Events (eventId varchar(20),eventDuration integer,eventType varchar(20),host varchar(20),alert boolean)
